@@ -11,12 +11,16 @@ VSCode拡張機能の開発の手順やノウハウをまとめています。
 
 ## 種類別マニュアル
 
-## [設定拡張機能](./md/settingExtension/00.md)
-VSCodeの設定は、拡張機能で操作することができます。
+### [設定を拡張する](./md/settingExtension/00.md)
+VSCodeの「設定」は、拡張機能で追加することができます。
 
 VSCodeの設定項目をどのように拡張するか、説明します。
 
-## [PowerShell実行拡張機能](./md/powerShellExtension/00.md)
+> ※「サイドバー」>「⚙」>「設定」で、設定を見ることができます。
+> <img src="./img/01.png" height=450 />
+
+
+### [PowerShellを組み込んで実行する](./md/powerShellExtension/00.md)
 `.ps1`ファイルを開いて実行するタイプの拡張機能はよくありますが、
 **`.ps1`が組み込まれた拡張機能**というのは一般に普及していません。
 
